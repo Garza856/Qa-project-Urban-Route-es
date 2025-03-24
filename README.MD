@@ -12,10 +12,10 @@ prueba, sino que también mejoró la calidad de la aplicación al garantizar
 su correcto funcionamiento a través de simulaciones realistas de uso.
 
 TECNOLOGIAS UTILILIZADAS 
-Para ejecutar las pruebas del proyecto se utilizo, pytests como herramienta 
+Para ejecutar las pruebas del proyecto se utilizo, pytest como herramienta 
 de automatización la instalacion de pytest se realiza de la siguiente manera.
 1. Abre PyCharm en una terminal como (Git Bash si es que utilizas windows).
-2. Verifica que Python esé correctamente instalado ejecutando el comando python--version.
+2. Verifica que Python este correctamente instalado ejecutando el comando python--version.
 3. Para instalar Pytest, ejecuta el siguiente comando: pip install pytest
 4. Para confirmar que Pytest se ha instalado correctamente, ejecuta el comando: Pytest -- version.
 
@@ -25,13 +25,13 @@ de automatización la instalacion de pytest se realiza de la siguiente manera.
 3. Descomprime el archivo y crea una carpeta llamada WebDriver/bin
 
 INSTRUCCIONES PARA EJECUCION DE PRUEBAS 
-1.PYTESTE:
-Para ejecutar las pruebas, sigue estos pasos par ainstalar y configurar Pytest:
+1.PYTEST:
+Para ejecutar las pruebas, sigue estos pasos para instalar y configurar Pytest:
 °Abrir Pycharm en una terminal 
 °Verificar la instalacion de pyhton ejecutando el comando pytest--versión 
 °Instalar Pytest ejecutable pip intall pytest
 °verifique la instalción de pyteste ejecutando  pyteste--version
-2.Controlador WEB SELENIUNM
+2.Controlador WEB SELENIUM
 °Dirigete al sitio web de Selenium, donde se encuentran disponible los controladores.
 °Selecciona la versión adecuada al controlador 
 °Existen varios archivos comprimidos disponibles en la carpeta. Descarga al que 
@@ -40,7 +40,7 @@ WebDiver/bin y almacena el archivo ahí.
 °Adjunta la ruta de la carpeta bin A la PATH. Ten en cuenta  el algoritmo depende del sistema operativo.
 -INSTALACION DE SELENIUM PARA PYTHON 
 °Abre la consola desde la terminal 
--COMANDO DE EJECUCION DE INTALACION 
+-COMANDO DE EJECUCION DE INSTALACION 
 °Agrega este comando para su instalación del paquete de SELENIUM: 
 pip install selenium.
 -ABRE EN NAVEGADOR CON PYCHARM 
@@ -49,7 +49,7 @@ Importa el paquete Selenium WebDriver:from selenium import webdriver
 Activa el controlador del navegador.
 
 EJECUCIÓN DE LAS PRUEBAS
-En la realizacón de pruebsa, verifica tener instalados los siguientes paquetes
+En la realizacón de pruebas, verifica tener instalados los siguientes paquetes
 °Pytest y Selenium
 °Pip install pytest
 °pip install selenium
@@ -75,7 +75,7 @@ correctamente y que la cuenta regresiva comience de manera adecuada.
 permitiendo identificar.
 °Flujo optimizado:Se verificó que la configuración de las direcciones, la selección
 de la tarifa y la confirmación del viaje se efectúa.
-°Problemas detectados.
+
 
 -Problemas detectados.
 °Se detectaron inconvenientes en la activación del botón de pago al ingreesar la tarjeta.
